@@ -16,7 +16,7 @@ resource "azurerm_linux_virtual_machine" "res-0" {
   availability_set_id                                    = ""
   bypass_platform_safety_checks_on_user_schedule_enabled = false
   capacity_reservation_group_id                          = ""
-  computer_name                                          = "myVM"
+  computer_name                                          = "myVMtest01"
   custom_data                                            = "" # Masked sensitive attribute
   dedicated_host_group_id                                = ""
   dedicated_host_id                                      = ""
@@ -29,7 +29,7 @@ resource "azurerm_linux_virtual_machine" "res-0" {
   license_type                                           = ""
   location                                               = "northeurope"
   max_bid_price                                          = -1
-  name                                                   = "myVM"
+  name                                                   = "myVMtest01"
   network_interface_ids                                  = [azurerm_network_interface.res-3.id]
   os_managed_disk_id                                     = "/subscriptions/895796c5-829c-4965-a2d3-82b3aba46b55/resourceGroups/MYRESOURCEGROUP/providers/Microsoft.Compute/disks/myVM_OsDisk_1_5e8b09d8cefb4794a8b0ca09669384ce"
   patch_assessment_mode                                  = "ImageDefault"
