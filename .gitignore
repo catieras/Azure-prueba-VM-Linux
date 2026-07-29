@@ -6,6 +6,3 @@
 # Ignorar la carpeta interna de Terraform
 .terraform/
 .terraform.lock.hcl
-
-# Ignorar la carpeta de Comandos
-Comandos/
