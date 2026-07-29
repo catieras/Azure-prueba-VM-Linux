@@ -1,0 +1,11 @@
+# Ignorar archivos de estado local de Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Ignorar la carpeta interna de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Ignorar la carpeta de Comandos
+Comandos/
