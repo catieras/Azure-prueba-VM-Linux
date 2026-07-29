@@ -77,7 +77,7 @@ resource "azurerm_network_interface" "res-3" {
   ip_configuration {
     name                                               = "ipconfig1"
     primary                                            = true
-    private_ip_address                                 = "10.0.0.234"
+    private_ip_address                                 = "10.0.0.235"
     private_ip_address_allocation                      = "Static"
     private_ip_address_version                         = "IPv4"
     public_ip_address_id                               = azurerm_public_ip.res-8.id
